@@ -33,9 +33,9 @@ export default function Planos() {
           <li className={style.li_vantagens}>
             ✓ Material didático acessível!
           </li>
-          <li className={style.li_vantagens}>
+          {/* <li className={style.li_vantagens}>
             ✓  Matrícula gratuita!
-          </li>
+          </li> */}
           <li className={style.li_vantagens}>
             ✓  Plantão de dúvidas!
           </li>
@@ -47,14 +47,13 @@ export default function Planos() {
 
             ✓   Professor em sala!
           </li>
-          <li className={style.li_vantagens}>
+          {/* <li className={style.li_vantagens}>
 
             ✓  LIVRE de Taxas e Multas!
-          </li>
+          </li> */}
         </ul>
         <div>
           <h3 className={style.title}>
-
             Inglês Completo
             <span>do Básico ao Avançado</span>
 

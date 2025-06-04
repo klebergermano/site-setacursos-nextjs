@@ -41,10 +41,10 @@ export default function Planos() {
           </li>
 
 
-          <li className={style.li_vantagens}>
+          {/* <li className={style.li_vantagens}>
 
             ✓  Matrícula gratuita!
-          </li>
+          </li> */}
 
           <li className={style.li_vantagens}>
 
@@ -96,10 +96,10 @@ export default function Planos() {
           </li>
 
 
-          <li className={style.li_vantagens}>
+          {/* <li className={style.li_vantagens}>
 
             ✓  Matrícula gratuita!
-          </li>
+          </li> */}
 
           <li className={style.li_vantagens}>
 

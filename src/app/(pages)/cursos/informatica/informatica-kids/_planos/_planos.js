@@ -69,9 +69,9 @@ export default function Planos() {
               ✓ Material didático incluso!
             </li>
 
-            <li className={style.li_vantagens}>
+            {/* <li className={style.li_vantagens}>
               ✓  Matrícula gratuita!
-            </li>
+            </li> */}
 
             <li className={style.li_vantagens}>
               ✓  Plantão de dúvidas!
@@ -120,10 +120,10 @@ export default function Planos() {
             </li>
 
 
-            <li className={style.li_vantagens}>
+            {/* <li className={style.li_vantagens}>
 
               ✓  Matrícula gratuita!
-            </li>
+            </li> */}
 
             <li className={style.li_vantagens}>
 
