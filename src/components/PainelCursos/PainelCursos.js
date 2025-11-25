@@ -9,7 +9,7 @@ const cursosList = [
   {
     nome: "Informática",
     imgUrl: 'img_painel_cursos-assets/curso-informatica-seta-cursos.webp',
-    linkPage: 'cursos/informatica/informatica-jovem',
+    linkPage: 'cursos/pagina-em-manutencao',
     alt: 'Cursos de Informática',
 
     descrição: `Aprenda desde o básico até habilidades avançadas em um curso prático e abrangente.`
@@ -17,7 +17,7 @@ const cursosList = [
   {
     nome: "Inglês",
     imgUrl: 'img_painel_cursos-assets/curso-ingles-seta-cursos.webp',
-    linkPage: 'cursos/ingles/ingles-completo',
+    linkPage: 'cursos/pagina-em-manutencao',
     alt: 'Cursos de Inglês',
 
     descrição: `Domine o idioma inglês em um curso completo que vai do básico ao 
@@ -28,7 +28,7 @@ const cursosList = [
   {
     nome: "Robótica",
     imgUrl: 'img_painel_cursos-assets/curso-robotica-seta-cursos.webp',
-    linkPage: 'cursos/robotica/robotica-maker',
+    linkPage: 'cursos/pagina-em-manutencao',
     alt: 'Cursos de Robótica',
 
     descrição: `Aprenda a linguagem da robótica e conceitos fundamentais e práticos de róbotica`
@@ -83,6 +83,13 @@ const cursosList = [
 
 
 
+
+
+];
+
+{
+  /*
+
   {
     imgUrl: 'img_painel_cursos-assets/reforco-apoio-escolar-seta-cursos.webp',
     nome: "Reforço Escolar",
@@ -92,11 +99,6 @@ const cursosList = [
     descrição: ` 
     Oferecemos suporte personalizado para cada aluno, fortalecendo habilidades e construindo confiança no aprendizado.`
   },
-
-];
-
-{
-  /*
 
   {
     imgUrl: 'img_painel_cursos-assets/curso-marketing-digital-seta-cursos.webp',

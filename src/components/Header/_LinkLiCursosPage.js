@@ -7,20 +7,20 @@ const LinkLiCursosPage = ({ callback }) => {
     return (
         <>
             <li> <Link className="link-cursos"
-                href="/cursos/informatica/informatica-jovem"
+                href="/cursos/pagina-em-manutencao"
                 onClick={callback}
             >Informática</Link> </li>
             <li>
-                <Link className="link-cursos" href="/cursos/ingles/ingles-completo"
+                <Link className="link-cursos" href="/cursos/pagina-em-manutencao"
                     onClick={callback}
                 >Inglês
                 </Link> </li>
-            <li> <Link className="link-cursos" href="/cursos/robotica/robotica-maker"
+            <li> <Link className="link-cursos" href="/cursos/pagina-em-manutencao"
                 onClick={callback}
             >Robótica</Link> </li>
 
 
-            <li> <Link className="link-cursos" href="/cursos/excel/excel-avancado"
+            <li> <Link className="link-cursos" href="/cursos/pagina-em-manutencao"
                 onClick={callback}
             >Excel Avançado</Link> </li>
 
