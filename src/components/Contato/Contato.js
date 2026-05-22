@@ -36,7 +36,7 @@ function Contato(props) {
                   </p>
                 </div>{/*clmn */}
                 <div className={style.clmn}>
-                  <a className={style.btn_whatsapp} target='_blank' href="https://wa.me/5511940092529">
+                  <a className={style.btn_whatsapp} target='_blank' href={`https://wa.me/5511943993338`}>
                     <Icon name="whatsapp" className={style.icon} />
                     Chamar no WhatsApp
                   </a>
