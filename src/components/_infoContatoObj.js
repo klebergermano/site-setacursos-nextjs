@@ -1,5 +1,5 @@
 export default {
-  telefone: "(11)94009-2529",
+  telefone: "(11)94399-3338",
   email: "contato@setacursos.com.br",
   endereco: "Av. Paulo Guilguer Reimberg, 2476",
   cidade: "São Paulo - SP",
