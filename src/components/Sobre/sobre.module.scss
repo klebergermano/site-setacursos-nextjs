@@ -21,12 +21,15 @@
 
     align-items: center;
 
-    div {
+    &>div {
+      min-width: 500px;
+
       h1 {
         @include h1;
         color: #111;
         margin-bottom: 0px;
         background-color: transparent;
+
 
       }
 
@@ -62,16 +65,18 @@
     figure {
 
 
-      max-width: 400px;
-      padding: 40px;
+      max-width: 300px;
+
       // background-color: #ffffffaa;
       border-radius: 5px;
-
+      //border: 1px solid red;
       text-align: right;
 
       img {
         width: 100%;
         height: auto;
+        object-fit: contain;
+
       }
 
     }
@@ -79,7 +84,7 @@
 }
 
 @media (max-width: 860px) {
-  #sobre {
+  .sobre {
 
 
     #content {
@@ -101,7 +106,9 @@
         text-align: center;
         padding: 0px;
 
-        img {}
+        img {
+          object-fit: contain;
+        }
       }
     }
 
@@ -110,6 +117,18 @@
       margin-bottom: 20px;
 
       text-align: center;
+    }
+  }
+}
+
+@media (max-width: 560px) {
+  .sobre {
+    #content {
+      div {
+        p {
+          text-align: center;
+        }
+      }
     }
   }
 }

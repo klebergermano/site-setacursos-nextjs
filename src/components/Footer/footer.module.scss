@@ -97,7 +97,7 @@
 
 
 
-@media (max-width: 660px) {
+@media (max-width: $width-mobile) {
     #footer {
 
 
@@ -118,24 +118,6 @@
                 }
             }
 
-        }
-
-
-    }
-}
-
-
-@media (max-width: 560px) {
-    #footer {
-
-
-
-        #footer_container {
-            //  flex-direction: column;
-
-            p {
-                // line-height: 22px;
-            }
         }
 
 

@@ -4,7 +4,8 @@
 .bg_slide_home {
 
     margin-top: $height-header-desk;
-    background: #000 url("/assets/images/blur-slidehome.png");
+    background: #000 url("/assets/images/blur-slidehome.webp");
+    background-size: cover;
     height: auto;
     width: 100%;
     overflow: hidden;
@@ -40,7 +41,7 @@
         }
 
         .info_slide {
-            opacity: 0;
+            //opacity: 0;
             transition: all 0.5s ease-in-out;
             overflow: hidden;
             position: absolute;
@@ -55,7 +56,7 @@
             overflow: hidden;
             width: 400px;
             // height: 1px;
-            top: 35%;
+            top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
             border-radius: 50px 50px 0px 50px;
@@ -133,14 +134,15 @@
     }
 }
 
-@media (max-width:580px) {
+@media (max-width:$width-mobile) {
     .bg_slide_home {
-        #slide_home {
+        .slide_home {
 
-            #info_slide {
-                padding: 15px 10px;
+            .info_slide {
+                padding: 15px 0px;
                 border-radius: 20px 20px 0px 20px;
                 // background-color: #746464;
+                max-width: 300px;
 
                 h1 {
                     font-size: 18px;

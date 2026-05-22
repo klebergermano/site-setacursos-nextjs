@@ -35,14 +35,18 @@ p {
   line-height: 20px;
 }
 
-//Menu dos cursos, torna ativo quando a página selecionada
-//Setado dinamicamente, por isso o use global e não local em modulo.
-
+//Menu dos cursos, torna ativo quando a página selecionada.
+//Setado dinamicamente, por isso o use global e não local em módulo.
+//Usado nas páginas de cursos.
 .item_curso_ativo {
-  background-color: $color-secondary !important;
-  border: 2px solid $color-primary !important;
+  //background-color: $color-secondary !important;
+  border: 3px solid $color-primary !important;
 
   a {
+    background-color: $color-primary;
+    color: #fff !important;
+    font-weight: bold;
+
     figcaption {
       background-color: $color-primary;
       color: #fff !important;
@@ -80,7 +84,7 @@ p {
 
 
 
-@media (max-width:560px) {
+@media (max-width: $width-mobile) {
   body {
     overflow-x: hidden !important;
   }

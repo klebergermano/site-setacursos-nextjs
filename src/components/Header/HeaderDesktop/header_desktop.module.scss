@@ -65,7 +65,7 @@
 }
 
 
-@media (max-width: 560px) {
+@media (max-width: $width-mobile) {
 
     #header_desktop {
         display: none;
@@ -74,7 +74,7 @@
 
 }
 
-@media (min-width: 561px) {
+@media (min-width: calc($width-mobile + 1px)) {
 
     #header_desktop {
         display: block;

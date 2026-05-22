@@ -3,7 +3,7 @@
 import Footer from "@/components/Footer/Footer";
 import Header from "@/components/Header/Header";
 import globals from "@/styles/globals.scss"
-
+import Contato from "@/components/Contato/Contato";
 
 
 export const metadata = {
@@ -30,6 +30,7 @@ export default function RootLayout({ children }) {
         <Header />
         <div className="container-global">
           {children}
+          <Contato />
           <Footer />
 
         </div>

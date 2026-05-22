@@ -2,7 +2,7 @@
 import Image from "next/image"
 import ImgLogo from "@/../public/assets/images/logo-mobile.png"
 import style from "./header_mobile.module.scss"
-import Link from "next/link"
+
 import NavHeaderMobile from "./NavHeaderMobile/NavHeaderMobile"
 import LoginAlunoHeader from "../LoginALunoHeader/LoginALunoHeader"
 

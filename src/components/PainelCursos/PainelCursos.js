@@ -9,7 +9,7 @@ const cursosList = [
   {
     nome: "Informática",
     imgUrl: 'img_painel_cursos-assets/curso-informatica-seta-cursos.webp',
-    linkPage: 'cursos/informatica/informatica-essencial',
+    linkPage: 'cursos/pagina-em-manutencao',
     alt: 'Cursos de Informática',
 
     descrição: `Aprenda desde o básico até habilidades avançadas em um curso prático e abrangente.`
@@ -17,28 +17,27 @@ const cursosList = [
   {
     nome: "Inglês",
     imgUrl: 'img_painel_cursos-assets/curso-ingles-seta-cursos.webp',
-    linkPage: 'cursos/ingles/ingles-completo',
+    linkPage: 'cursos/pagina-em-manutencao',
     alt: 'Cursos de Inglês',
 
-    descrição: `Domine o idioma inglês com cursos que vão do início ao 
-    avançado, com uma didática dinâmica, completa e envolvente.`
+    descrição: `Domine o idioma inglês em um curso completo que vai do básico ao 
+    avançado`
   },
 
 
   {
     nome: "Robótica",
-    imgUrl: 'img_painel_cursos-assets/curso-robotica-seta-cursos.png',
-    linkPage: 'cursos/robotica/robotica-maker',
+    imgUrl: 'img_painel_cursos-assets/curso-robotica-seta-cursos.webp',
+    linkPage: 'cursos/pagina-em-manutencao',
     alt: 'Cursos de Robótica',
 
-    descrição: `Aprenda a linguagem da robótica desde os conceitos básicos até níveis mais avançados, 
-    através de cursos com uma abordagem didática dinâmica e brangente.`
+    descrição: `Aprenda a linguagem da robótica e conceitos fundamentais e práticos de róbotica`
   },
 
   {
     nome: "Administração",
     imgUrl: 'img_painel_cursos-assets/curso-administracao-seta-cursos.webp',
-    linkPage: 'curso-manutencao',
+    linkPage: 'cursos/pagina-em-manutencao',
     alt: 'Cursos de Administgração',
 
     descrição: `Conheça nossos cursos de admnistração, 
@@ -51,20 +50,21 @@ const cursosList = [
   {
     nome: "Excel Avançado",
     imgUrl: 'img_painel_cursos-assets/curso-excel-avancado-seta-cursos.webp',
-    linkPage: 'curso-manutencao',
+    linkPage: 'cursos/pagina-em-manutencao',
     alt: 'Cursos de Excel Avançado',
 
-    descrição: `Curso de excel avançado focado nas ferramentas mais avançadas do mercado, ideal para impulsionar a sua expertise e oportunidades! 
+    descrição: `Curso de excel avançado focado nas ferramentas mais utilizadas do mercado, 
+    ideal para impulsionar a sua expertise e oportunidades! 
   `
   },
 
   {
-    nome: "Desenvolvimento Web",
-    imgUrl: 'img_painel_cursos-assets/curso-desenvolvimento-web-seta-cursos.webp',
-    linkPage: 'curso-manutencao',
-    alt: 'Cursos de Desenvolvimento Web',
+    nome: "Web Design",
+    imgUrl: 'img_painel_cursos-assets/curso-web-design-seta-cursos.webp',
+    linkPage: 'cursos/pagina-em-manutencao',
+    alt: 'Cursos de Web Design',
 
-    descrição: `Inicie sua carreira Dev Web com esse curso especializado com as mais 
+    descrição: `Inicie sua carreira de Web Designer com esse curso especializado com as mais 
     recentes tecnologias e práticas do mercado.
     `
   },
@@ -72,7 +72,7 @@ const cursosList = [
   {
     imgUrl: 'img_painel_cursos-assets/curso-programacao-seta-cursos.webp',
     nome: "Programação",
-    linkPage: 'curso-manutencao',
+    linkPage: 'cursos/pagina-em-manutencao',
     alt: 'Cursos de Programação',
 
     descrição: `Explore o mundo da programação com nosso curso de Python, 
@@ -83,15 +83,7 @@ const cursosList = [
 
 
 
-  {
-    imgUrl: 'img_painel_cursos-assets/reforco-apoio-escolar-seta-cursos.webp',
-    nome: "Reforço Escolar",
-    linkPage: 'curso-manutencao',
-    alt: 'Reforço e Apoio Escolar',
 
-    descrição: ` 
-    Oferecemos suporte personalizado para cada aluno, fortalecendo habilidades e construindo confiança no aprendizado.`
-  },
 
 ];
 
@@ -99,9 +91,19 @@ const cursosList = [
   /*
 
   {
+    imgUrl: 'img_painel_cursos-assets/reforco-apoio-escolar-seta-cursos.webp',
+    nome: "Reforço Escolar",
+    linkPage: 'cursos/pagina-em-manutencao',
+    alt: 'Reforço e Apoio Escolar',
+
+    descrição: ` 
+    Oferecemos suporte personalizado para cada aluno, fortalecendo habilidades e construindo confiança no aprendizado.`
+  },
+
+  {
     imgUrl: 'img_painel_cursos-assets/curso-marketing-digital-seta-cursos.webp',
     nome: "Marketing Digital",
-    linkPage: 'curso-manutencao',
+    linkPage: 'cursos/pagina-em-manutencao',
     alt: 'Cursos de Marketing Digital',
 
     descrição: `Desperte seu potencial em social media com nosso curso. Domine estratégias, 
@@ -111,7 +113,7 @@ const cursosList = [
     {
     nome: "Power BI",
     imgUrl: 'img_painel_cursos-assets/curso-power-bi-seta-cursos.webp',
-    linkPage: 'curso-manutencao',
+    linkPage: 'cursos/pagina-em-manutencao',
     alt: 'Cursos de Power BI',
     descrição: `Curso abrangente de Power BI, capacitando 
     você com habilidades para transformar informações brutas em insights visuais.`,
@@ -120,7 +122,7 @@ const cursosList = [
     {
     imgUrl: 'img_painel_cursos-assets/curso-espanhol-seta-cursos.webp',
     nome: "Espanhol",
-    linkPage: 'curso-manutencao',
+    linkPage: 'cursos/pagina-em-manutencao',
     alt: 'Cursos de Espanhol',
 
     descrição: `Explore o mundo falando espanhol. Junte-se ao nosso curso e mergulhe na língua e 

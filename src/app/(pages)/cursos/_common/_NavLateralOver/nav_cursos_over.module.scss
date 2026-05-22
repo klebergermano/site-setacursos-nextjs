@@ -1,0 +1,37 @@
+@import "../../../../../styles/includes.module.scss";
+
+.bg_nav_cursos_lateral {
+    // top: 80px;
+    // position: sticky;
+    // position: fixed;
+    //top: 380px;
+    margin-top: 20px;
+    background-color: #272727b6;
+    padding: 10pt;
+
+    h4 {
+        color: #7c7c7c;
+        text-align: center;
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .item_curso {
+        display: flex;
+        text-align: center;
+        background: rgb(255, 255, 255);
+        border-bottom: 1px solid #7c7c7c;
+
+        a {
+
+            //border: 1px solid #b3b3b3;
+            border-collapse: collapse !important;
+            color: #000000;
+            padding: 10px;
+            width: 100%;
+            display: block;
+            text-decoration: none;
+            // background: rgb(255, 255, 255);
+        }
+    }
+}

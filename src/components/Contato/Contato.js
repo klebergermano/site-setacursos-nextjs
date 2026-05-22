@@ -6,6 +6,7 @@ import Icon from "@/../public/assets/icons";
 import style from "./contato.module.scss";
 import InfoContato from "../_infoContatoObj";
 import { IoChatbubblesOutline } from "react-icons/io5";
+import Image from "next/image";
 function Contato(props) {
 
   return (
@@ -35,7 +36,7 @@ function Contato(props) {
                   </p>
                 </div>{/*clmn */}
                 <div className={style.clmn}>
-                  <a className={style.btn_whatsapp} target='_blank' href="https://wa.me/5511940092529">
+                  <a className={style.btn_whatsapp} target='_blank' href={`https://wa.me/5511943993338`}>
                     <Icon name="whatsapp" className={style.icon} />
                     Chamar no WhatsApp
                   </a>
@@ -43,7 +44,7 @@ function Contato(props) {
               </div>{/*---- div row ----*/}
 
               <div className={style.row}>
-                <h4>Conheça também nossas redes sociais!</h4>
+                <p className={style.txt_redes_sociais}>Conheça também nossas redes sociais!</p>
 
                 <a className={`${style.btn_redesocial} ${style.btn_facebook}`} id={style.btn_facebook} target="_blank" href={Info.facebook}>
                   <Icon name="facebook" className="icon facebook" />
@@ -74,12 +75,15 @@ function Contato(props) {
                 </p>
 
                 <div className={style.bg_map}>
+                  <figure>
 
-
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58433.24167226776!2d-46.72758612692002!3d-23.74461187340801!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce49ce5dd65215%3A0x8dcca9f16e4895c1!2sSeta%20Cursos!5e0!3m2!1spt-BR!2sbr!4v1706311605598!5m2!1spt-BR!2sbr"
-                    allowfullscreen="" loading="lazy" title="Mapa Endereço Seta Cursos"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
-
+                    <Image width='200' height='0' src={"/assets/images/empresa-local.webp"} />
+                  </figure>
+                  <div>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58433.24167226776!2d-46.72758612692002!3d-23.74461187340801!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce49ce5dd65215%3A0x8dcca9f16e4895c1!2sSeta%20Cursos!5e0!3m2!1spt-BR!2sbr!4v1706311605598!5m2!1spt-BR!2sbr"
+                      allowfullscreen="" loading="lazy" title="Mapa Endereço Seta Cursos"
+                      referrerpolicy="no-referrer-when-downgrade"></iframe>
+                  </div>
                 </div>
               </div>{/*---- div row ----*/}
 

@@ -1,0 +1,75 @@
+@import "../../../../../styles/includes.module.scss";
+
+.bg_nav_cursos_lateral {
+    interpolate-size: allow keywords;
+
+    margin-top: 20px;
+    // margin-bottom: 0px;
+    background-color: #ffffff;
+    padding: 10px;
+
+    border-radius: 5px;
+    transition: all 1s;
+    opacity: 1;
+    overflow: hidden;
+    height: 200px;
+
+    min-width: 220px;
+    position: sticky;
+    top: 80px;
+
+
+
+
+    h4 {
+        opacity: 1;
+        transition: all 0.5s ease-in-out;
+        color: #7c7c7c;
+        text-align: center;
+        padding: 15px 10px 15px 10px;
+        font-size: 14px;
+        // background-color: #131313;
+        font-weight: normal;
+        text-transform: uppercase;
+        //border-bottom: 1px solid rgb(68, 68, 68);
+    }
+
+    ul {
+        transition: all 0.5s ease-in-out;
+        opacity: 1;
+
+        li.item_curso {
+
+            display: flex;
+            text-align: center;
+            background: rgb(255, 255, 255);
+            border: 1px solid #7c7c7c;
+            //border-top: 0px;
+            border-collapse: collapse;
+            margin-bottom: 5px;
+            border-radius: 10px 0px 10px 0px;
+            overflow: hidden;
+
+            a {
+
+                //border: 1px solid #b3b3b3;
+                border-collapse: collapse !important;
+                color: #000000;
+                padding: 10px;
+                width: 100%;
+                display: block;
+                text-decoration: none;
+
+                // background: rgb(255, 255, 255);
+
+            }
+
+            &:hover {
+                //border: 1px solid red;
+                // border-color: red;
+                background: #e3e6eb
+            }
+
+        }
+    }
+}

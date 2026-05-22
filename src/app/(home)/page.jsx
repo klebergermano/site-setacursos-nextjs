@@ -24,7 +24,7 @@ export default function Home() {
       <PainelCursos />
 
       <Sobre />
-      <GoogleReview />
+      {/* <GoogleReview /> */}
       <Contato />
     </>
   );

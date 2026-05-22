@@ -1,0 +1,152 @@
+@import "../../../../../../styles/includes.module.scss";
+
+.bg_planos {
+    position: relative;
+    //border: 2px solid rgb(0, 195, 255);
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 40px;
+
+    justify-content: center;
+    //background-color: #00000099;
+
+    .icon {
+        max-width: 25px;
+        margin: 0px;
+    }
+
+
+    min-height: 300px;
+    gap: 20px;
+
+    h3 {
+        position: absolute;
+        color: #000000;
+        top: 0px;
+        text-align: center;
+        // background-color: #00ffff;
+        width: 100%;
+
+    }
+
+
+    .planos {
+        position: relative;
+        border: 2px solid #ffffff;
+        display: flex;
+        padding: 20px;
+        border-radius: 5px;
+        flex-direction: column;
+        flex-grow: 1;
+        box-shadow: 0px 3px 2px #272727;
+        max-width: 400px;
+        min-width: 340px;
+
+
+        .bg_background {
+            position: absolute;
+            top: 0px;
+            bottom: 0px;
+            right: 0px;
+            left: 0px;
+            background-color: #001e41ab;
+            z-index: 1;
+        }
+
+
+        h4 {
+            // background-color: #0091bd;
+            color: #fff;
+            text-align: center;
+            padding: 10px 10px;
+            text-transform: uppercase;
+            font-size: 22px;
+            z-index: 2;
+        }
+
+        p {
+            z-index: 2;
+            color: #effd6d;
+            text-align: center;
+            //font-weight: bold;
+            margin-bottom: 10px;
+
+        }
+
+        ul {
+            z-index: 2;
+
+            display: flex;
+            flex-direction: column;
+            border: 1px solid #ffffff;
+            background-color: #08306bce;
+            padding: 15px;
+
+            li {
+                text-decoration: none;
+                list-style: none;
+                padding: 5px;
+                color: #fff;
+                //              color: #00ffff;
+
+                font-size: 18px;
+                text-align: center;
+            }
+
+            span.txt_pequeno {
+                color: #fdff84;
+                //                color: #fff;
+
+                font-size: 14px;
+            }
+
+            .li_vantagens {
+                padding: 10px 5px;
+
+                font-size: 16px;
+                color: rgb(0, 0, 0);
+                background-color: #ffffffe5;
+                border-bottom: 1px solid rgb(145, 145, 145) !important;
+
+
+            }
+
+
+            .preco {
+                span.valor_destaque {
+                    font-size: 38px;
+                }
+            }
+        }
+    }
+
+    .planos:nth-child(2) {
+        background: url('/assets/images/cursos/informatica/plano-inf-jovem-01.webp');
+        background-size: auto 100%;
+        background-position: center;
+    }
+
+    .planos:nth-child(3) {
+        background: url('/assets/images/cursos/informatica/plano-inf-jovem-02.webp');
+        background-size: auto 100%;
+        background-position: center;
+    }
+}
+
+@media (max-width:700px) {
+
+
+
+    .bg_planos {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+
+        .planos {
+            // padding: 0px;
+            width: 400px;
+        }
+    }
+
+}
