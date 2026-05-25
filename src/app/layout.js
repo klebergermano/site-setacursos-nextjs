@@ -19,6 +19,9 @@ export const metadata = {
     verification: {
         google: "ztY3CureYTqEE4UxlOqDUYKKNzAlFRthvBV2Q78OX7k",
     },
+    alternates: {
+        canonical: 'https://setacursos.com.br'
+    }
 };
 export default function RootLayout({ children }) {
 
