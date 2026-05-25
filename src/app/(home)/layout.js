@@ -3,11 +3,24 @@
 import Footer from "@/components/Footer/Footer";
 import Header from "@/components/Header/Header";
 import globals from "@/styles/globals.scss"
+import { MdDescription } from "react-icons/md";
 
 
 export const metadata = {
   title: "Seta Cursos",
-  "Cursos de T.I, Programação, Informática, Excel, Inglês e Tecnologia com foco prático para o mercado de trabalho."
+  description: "Cursos de T.I, Programação, Informática, Excel, Inglês e Tecnologia com foco prático para o mercado de trabalho.",
+
+  keywords: [
+    "curso de T.I",
+    "curso de Tecnologia da Informação",
+    "curso de programação",
+    "curso de informática",
+    "curso de excel",
+    "curso de inglês",
+    "seta cursos"
+  ],
+  authors: [{ name: "Seta Cursos" }],
+
 
 };
 
