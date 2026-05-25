@@ -31,7 +31,7 @@ function HeaderMobile() {
                             <Image
                                 src={ImgLogo}
                                 fill={true}
-                                alt="Logo Seta Cursos"
+                                alt="Seta Cursos"
                             />
                         </figure>
 
